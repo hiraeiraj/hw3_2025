@@ -19,7 +19,7 @@ nav:hover li, nav:focus li {text-decoration: underline;}
    }
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
-*:focus { 
+:focus { 
      border: 2px solid black;
 }
 
@@ -62,23 +62,25 @@ div.overview {
      grid-row-start: 5;
 }
 
-div#about.about-image div#method.method-image div#clients.clients-image div#contact.contact-image{
+.about-image .method-image .clients-image .contact-image{
      grid-column: 1/ -1;
      max-height: 600px;
      overflow: hidden;
 }
 
-div#about.about-image {
+
+
+.about-image {
      grid-row-start: 2;
 }
 
-div#method.method-image {
+.method-image {
      grid-row-start: 3;
 }
-div#clients.clients-image {
+.clients-image {
      grid-row-start: 4;
 }
-div#contact.contact-image {
+.contact-image {
      grid-row-start: 5;
 } */
 
