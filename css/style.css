@@ -89,7 +89,7 @@ div.overview {
  .text-block {
      align-items: center;
      justify-items: center;
- } 
+ }
 
 /* Add your media query here */
  @media all and (min-width: 800px) {}
